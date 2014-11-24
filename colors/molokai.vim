@@ -271,6 +271,15 @@ if &t_Co > 255
    endif
 end
 
+hi Conditional gui=none
+hi Constant gui=none
+hi Directory gui=none
+hi Exception gui=none
+hi Keyword gui=none
+hi PreCondit gui=none
+hi Repeat gui=none
+hi Statement gui=none
+
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
