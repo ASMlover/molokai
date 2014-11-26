@@ -271,6 +271,7 @@ if &t_Co > 255
    endif
 end
 
+hi SpecialChar gui=none
 hi Conditional gui=none
 hi Constant gui=none
 hi Directory gui=none
